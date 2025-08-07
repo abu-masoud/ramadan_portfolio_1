@@ -36,7 +36,7 @@ ul {
 }
 
 .navbar__logo a:hover {
-    color: #fca311;
+  color: #fca311;
 }
 
 .navbar ul {
@@ -178,7 +178,6 @@ ul {
   border-radius: 26px;
 }
 
-
 .about {
   background-color: #e5e5e5;
   margin-top: 60px;
@@ -286,74 +285,72 @@ ul {
 }
 
 .contact {
-    background-color: #e5e5e5;
-    padding-top: 30px;
-    min-height: calc(50vh - 30px);
-    display: flex;
-    align-items: center;
-    flex-direction: column;    
+  background-color: #e5e5e5;
+  padding-top: 30px;
+  min-height: calc(50vh - 30px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contact .boxes {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .contact .box {
-    width: calc((100% - 10px) / 2);
-    padding: 10px 20px;
-    background-color: #fff;
-    border: 1px solid #14213d;
-    border-radius: 5px;
+  width: calc((100% - 10px) / 2);
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #14213d;
+  border-radius: 5px;
 }
 
 .contact .box p {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .contact .box button {
-    background-color: #14213d;
-    color: #e5e5e5;
-    padding: 5px 8px;
-    border: 1px solid #14213d;
-    cursor: pointer;
-    transition: all 0.5s ease;
-    border-radius: 5px;
-    margin-top: 10px;
+  background-color: #14213d;
+  color: #e5e5e5;
+  padding: 5px 8px;
+  border: 1px solid #14213d;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
 .contact .box button:hover {
-    background-color: #fff;
-    color: #14213d;
-    border-color: #000;
+  background-color: #fff;
+  color: #14213d;
+  border-color: #000;
 }
 
 .footer {
-
-    background-color: #000;
-    min-height: calc(15vh - 20px);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+  background-color: #000;
+  min-height: calc(15vh - 20px);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .footer ul {
-    color: #e5e5e5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    padding: 25px;
-
+  color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 25px;
 }
 
 .footer ul li {
-    transition: all 0.5s ease;
-    cursor: pointer;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
 
 .footer ul li:hover {
-    color: #fca311;
+  color: #fca311;
 }
