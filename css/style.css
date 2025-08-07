@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #14213d;
+  border-radius: 24px;
+  padding: 10px 35px;
+}
+
+.navbar__logo a {
+  color: #000;
+  transition: all 0.5s ease;
+}
+
+.navbar__logo a:hover {
+    color: #fca311;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.navbar ul a {
+  color: #14213d;
+  transition: color 0.5s;
+}
+
+.navbar ul a:hover {
+  color: #fca311;
+}
+
+.navbar button {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: #e5e5e5;
+  background-color: #000;
+  padding: 5px 24px;
+  border: none;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.navbar button:hover {
+  color: #14213d;
+  background-color: #fca311;
+}
+
+.git__buttons button i {
+  font-size: 14px;
+  color: #e5e5e5;
+  /* transition: all 0.5s ease; */
+}
+
+/* .git__buttons button i:hover {
+    color: #14213d;
+}  */
+
+.hero {
+  margin-top: 80px;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0 40px;
+}
+
+.hero .left__section {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.hero .left__section .top h1 {
+  color: #14213d;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.hero .left__section .top p {
+  text-align: justify;
+  font-size: 22px;
+  color: #14213d;
+  margin-bottom: 24px;
+}
+
+.hero .left__section button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hero .left__section .buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hero .left__section button.linkedin {
+  background-color: #14213d;
+  color: #fca311;
+  transition: all 0.5s ease;
+}
+
+.hero .left__section button.linkedin:hover {
+  background-color: #fca311;
+  color: #14213d;
+}
+
+.hero .left__section button.git {
+  background-color: #e5e5e5;
+  color: #14213d;
+  transition: all 0.5s ease;
+}
+
+.hero .left__section button.git:hover {
+  background-color: #14213d;
+  color: #e5e5e5;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bottom .icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.bottom .icons i {
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.bottom .icons i:hover {
+  background-color: #fca311;
+}
+
+.hero > img {
+  max-width: 520px;
+  width: 70%;
+  border-radius: 26px;
+}
+
+
+.about {
+  background-color: #e5e5e5;
+  margin-top: 60px;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.about .about_text h2 {
+  background-color: #fff;
+  margin-bottom: 24px;
+  border: 1px solid #14213d;
+  padding: 5px 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.about .about_text p {
+  margin-bottom: 24px;
+  font-size: 20px;
+  color: #14213d;
+  font-weight: 500;
+}
+
+.about .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+}
+
+.about .card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 24px;
+  padding: 20px;
+}
+
+.about .cards .card > img {
+  max-width: 450px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.projects {
+  margin-top: 40px;
+  background-color: #000;
+  min-height: calc(50vh - 40px);
+  padding: 40px;
+  border-radius: 16px;
+  width: 95%;
+}
+
+.projects h2 {
+  color: #e5e5e5;
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.projects p {
+  margin-bottom: 24px;
+  font-weight: 300;
+  color: #e5e5e5;
+}
+
+.projects button {
+  background-color: #fff;
+  margin-bottom: 24px;
+  padding: 5px 20px;
+  border: 1px solid #14213d;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.projects button:hover {
+  background-color: #fca311;
+  color: #14213d;
+  border-color: #e5e5e5;
+}
+
+.projects .boxes {
+  color: #e5e5e5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.projects .box {
+  width: calc((100% - 60px) / 4);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #14213d;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.contact {
+    background-color: #e5e5e5;
+    padding-top: 30px;
+    min-height: calc(50vh - 30px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.contact .boxes {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact .box {
+    width: calc((100% - 10px) / 2);
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #14213d;
+    border-radius: 5px;
+}
+
+.contact .box p {
+    margin-top: 10px;
+}
+
+.contact .box button {
+    background-color: #14213d;
+    color: #e5e5e5;
+    padding: 5px 8px;
+    border: 1px solid #14213d;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.contact .box button:hover {
+    background-color: #fff;
+    color: #14213d;
+    border-color: #000;
+}
+
+.footer {
+
+    background-color: #000;
+    min-height: calc(15vh - 20px);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.footer ul {
+    color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 25px;
+
+}
+
+.footer ul li {
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.footer ul li:hover {
+    color: #fca311;
+}
