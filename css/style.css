@@ -27,7 +27,7 @@ ul {
   transform: translateX(-50%);
   border: 1px solid #14213d;
   border-radius: 24px;
-  padding: 10px 35px;
+  padding: 10px 30px;
 }
 
 .navbar__logo a {
@@ -354,3 +354,4 @@ ul {
 .footer ul li:hover {
   color: #fca311;
 }
+
