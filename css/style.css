@@ -16,7 +16,7 @@ ul {
 }
 
 .navbar {
-  padding: 16px 0;
+  padding: 16px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,6 +86,11 @@ ul {
 /* .git__buttons button i:hover {
     color: #14213d;
 }  */
+
+.ri-menu-line {
+  display: none;
+  font-size: 20px;
+}
 
 .hero {
   margin-top: 80px;
@@ -208,6 +213,7 @@ ul {
 
 .about .cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -215,6 +221,7 @@ ul {
 }
 
 .about .card {
+  width: calc((100% - 40px) / 3 );
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -362,4 +369,57 @@ ul {
 
 ::-webkit-scrollbar-thumb {
   background: #fca311;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .hero .left__section .top h1 {
+    font-size: 25px;
+  }
+
+  .hero .left__section .top p {
+    font-size: 17px;
+  }
+
+  .projects .box {
+    width: calc((100% - 40px) / 3);
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .hero .left__section .buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .about .card {
+    width: calc((100% - 20px) / 2);
+  }
+  
+  .projects .box {
+    width: calc((100% - 20px) / 2);
+  }
+
+}
+
+@media screen and (max-width: 575.98px) {
+  .ri-menu-line {
+    display: block;
+  }
+
+  .navbar ul, .navbar button {
+    display: none;
+  }
+
+ 
+  .about .card {
+    width: calc((100%) / 1);
+  }
+
+  .projects .box {
+    width: calc((100%) / 1);
+  
+  }
+
 }
