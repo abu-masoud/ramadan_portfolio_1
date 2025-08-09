@@ -31,13 +31,14 @@ ul {
 }
 
 .navbar__logo a {
+  font-weight: 600;
   color: #000;
   transition: all 0.5s ease;
 }
 
-.navbar__logo a:hover {
+/* .navbar__logo a:hover {
   color: #fca311;
-}
+} */
 
 .navbar ul {
   display: flex;
@@ -355,3 +356,10 @@ ul {
   color: #fca311;
 }
 
+::-webkit-scrollbar {
+  background-color: #14213d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fca311;
+}
