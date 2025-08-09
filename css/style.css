@@ -478,6 +478,10 @@ ul {
     font-size: 12px;
   }
 
+  .hero .left__section button.git {
+    padding: 5px 15px;
+  }
+
   .about .card {
     width: 100%
   }
