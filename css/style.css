@@ -86,8 +86,8 @@ ul {
 
 .hero {
   margin-top: 80px;
-  min-height: calc(100vh - 80px);
-  display: flex;
+  height: calc(100vh - 80px);
+  display: flex;  
   align-items: center;
   gap: 30px;
   padding: 0 40px;
@@ -289,15 +289,17 @@ ul {
   padding-top: 30px;
   min-height: calc(50vh - 30px);
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
 }
 
 .contact .boxes {
   width: 90%;
   margin: auto;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -387,8 +389,22 @@ ul {
     align-items: flex-start;
   }
 
+  .hero .left__section .top h1 {
+    font-size: 20px;
+  }
+
+  .hero .left__section .top p {
+    font-size: 14;
+  }
+
   .bottom h2 {
     font-size: 18px;
+  }
+
+  .hero > img {
+    width: 450px;
+    width: 60%;
+    border-radius: 26px;
   }
 
   .about .about_text {
@@ -427,8 +443,22 @@ ul {
     display: none;
   }
 
+  .hero .left__section .top h1 {
+    font-size: 15px;
+  }
+
+  .hero .left__section .top p {
+    font-size: 11px;
+  }
+
   .bottom h2 {
     font-size: 15px;
+  }
+
+  .hero > img {
+    width: 450px;
+    width: 70%;
+    border-radius: 26px;
   }
 
   .about .about_text {
@@ -449,10 +479,14 @@ ul {
   }
 
   .about .card {
-    width: calc((100%) / 1);
+    width: 100%
   }
 
   .projects .box {
-    width: calc((100%) / 1);
+    width: 100%
+  }
+
+.contact .box {
+  width: 100%
   }
 }
