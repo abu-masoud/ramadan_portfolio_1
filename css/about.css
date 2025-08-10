@@ -1,0 +1,115 @@
+@import url('./style.css');
+
+
+.main__container {
+    background-color: #fff;
+}
+
+.hero__section {
+    width: 90%;
+    margin: 100px auto;
+    background-color: #e5e5e5;
+    min-height: calc(70vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+}
+
+
+.hero__section > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hero__section h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.hero__section p {
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 50px ;
+}
+
+.about__me {
+    padding: 30px;
+    width: 90%;
+    margin: 50px auto;
+    background-color: #e5e5e5;
+    min-height: calc(70vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 15px;
+}
+
+.about__me h2 {
+    padding: 30px;
+}
+
+.about__me .left__section {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.about__me .left__section p {
+    padding: 30px;
+    flex: 1;
+    text-align: justify;
+}
+
+.skills__section {
+    padding: 30px;
+    background-color: #e5e5e5;
+    width: 90%;
+    margin: 50px auto;
+    min-height: calc(50vh - 50px);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills__section h2 {
+    padding: 30px;
+}
+
+.skills__section .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+
+.skills__section .box {
+    padding: 30px 20px;
+    width: calc((100% - 60px) / 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid #14213d;
+    border-radius: 10px;
+}
+
+.skills__section .box i {
+    font-size: 30px;
+}
+
+.footer {
+    width: 100%;
+}
+
