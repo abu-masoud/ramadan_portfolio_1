@@ -101,13 +101,13 @@ ul {
 
 .hero .left__section .top h1 {
   color: #14213d;
-  font-size: 40px;
+  font-size: clamp(28px, 5vw, 60px);
+
   margin-bottom: 24px;
 }
 
 .hero .left__section .top p {
-  text-align: justify;
-  font-size: 22px;
+  font-size: clamp(16px, 2vw, 20px);
   color: #14213d;
   margin-bottom: 24px;
 }
@@ -365,13 +365,13 @@ ul {
 }
 
 @media screen and (max-width: 1200px) {
-  .hero .left__section .top h1 {
+  /* .hero .left__section .top h1 {
     font-size: 25px;
-  }
+  } */
 
-  .hero .left__section .top p {
-    font-size: 17px;
-  }
+   /* .hero .left__section .top p {
+     font-size: 17px; 
+  }  */
 
   .projects .box {
     width: calc((100% - 40px) / 3);
@@ -387,9 +387,9 @@ ul {
     align-items: flex-start;
   }
 
-  .hero .left__section .top h1 {
+  /* .hero .left__section .top h1 {
     font-size: 15px;
-  }
+  } */
 
   .hero .left__section .top p {
     font-size: 10;
@@ -432,6 +432,11 @@ ul {
 }
 
 @media screen and (max-width: 575.98px) {
+
+
+  .navbar {
+    gap: 13px;
+  }
   .ri-menu-line {
     display: block;
   }
@@ -448,11 +453,11 @@ ul {
 
   .hero .left__section .top h1 {
     text-align: center;
-    font-size: 30px;
+    /* font-size: 30px; */
   }
 
   .hero .left__section .top p {
-    font-size: 17px;
+    /* font-size: 17px; */
     text-align: center;
   }
 
