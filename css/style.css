@@ -102,7 +102,6 @@ ul {
 .hero .left__section .top h1 {
   color: #14213d;
   font-size: clamp(20px, 5vw, 45px);
-
   margin-bottom: 24px;
 }
 
