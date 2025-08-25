@@ -101,13 +101,13 @@ ul {
 
 .hero .left__section .top h1 {
   color: #14213d;
-  font-size: clamp(28px, 5vw, 60px);
+  font-size: clamp(20px, 5vw, 45px);
 
   margin-bottom: 24px;
 }
 
 .hero .left__section .top p {
-  font-size: clamp(16px, 2vw, 20px);
+  font-size: clamp(16px, 2vw, 15px);
   color: #14213d;
   margin-bottom: 24px;
 }
@@ -292,6 +292,7 @@ ul {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  padding: 20px;
 }
 
 .contact .boxes {
@@ -365,31 +366,36 @@ ul {
 }
 
 @media screen and (max-width: 1200px) {
-  /* .hero .left__section .top h1 {
-    font-size: 25px;
-  } */
-
-   /* .hero .left__section .top p {
-     font-size: 17px; 
-  }  */
-
   .projects .box {
     width: calc((100% - 40px) / 3);
   }
 }
 
+@media screen and (max-width: 960px) {
+.hero {
+    padding-top: 50px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .hero .left__section .top  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .hero .left__section .top p {
+    text-align: center;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .ri-menu-line {
     display: blo;
   }
-
-  .hero .left__section .buttons {
-    align-items: flex-start;
-  }
-
-  /* .hero .left__section .top h1 {
-    font-size: 15px;
-  } */
 
   .hero .left__section .top p {
     font-size: 10;
@@ -432,8 +438,6 @@ ul {
 }
 
 @media screen and (max-width: 575.98px) {
-
-
   .navbar {
     gap: 13px;
   }
@@ -444,35 +448,6 @@ ul {
   .navbar ul,
   .navbar button {
     display: none;
-  }
-
-  .hero {
-    padding-top: 50px;
-    flex-direction: column-reverse;
-  }
-
-  .hero .left__section .top h1 {
-    text-align: center;
-    /* font-size: 30px; */
-  }
-
-  .hero .left__section .top p {
-    /* font-size: 17px; */
-    text-align: center;
-  }
-
-  .hero .left__section .top .buttons {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .hero .left__section .top button.git {
-    padding: 11px 18px;
-  }
-
-  .hero .left__section .bottom {
-    align-items: center;
   }
 
   .bottom h2 {
